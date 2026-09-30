@@ -1,0 +1,48 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.not-found-image {
+  width: 90%;
+  max-width: 350px;
+  margin-bottom: 24px;
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.not-found-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+  line-height: 1.5;
+  max-width: 450px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.not-found-btn {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+}

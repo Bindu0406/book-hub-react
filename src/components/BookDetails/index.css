@@ -1,0 +1,172 @@
+.book-details-route-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.book-details-content-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.book-details-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  width: 100%;
+}
+
+.book-primary-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .book-primary-info {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.book-detail-cover-pic {
+  width: 180px;
+  height: 240px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .book-detail-cover-pic {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+}
+
+.book-titles-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.book-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #334155;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.book-author {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.book-rating-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.avg-rating-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #475569;
+  margin: 0 6px 0 0;
+}
+
+.star-icon {
+  color: #f59e0b;
+  font-size: 14px;
+  margin-right: 6px;
+}
+
+.book-rating-val {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+  margin: 0;
+}
+
+.book-status-text {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #64748b;
+  margin: 0;
+}
+
+.status-span {
+  color: #0284c7;
+  font-weight: 500;
+}
+
+.details-divider {
+  border: 1px solid #cbd5e1;
+  margin: 24px 0;
+}
+
+.book-about-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #334155;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.about-description {
+  font-family: 'Roboto';
+  font-size: 13px;
+  line-height: 1.6;
+  color: #475569;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.details-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.details-failure-image {
+  width: 200px;
+  margin-bottom: 16px;
+}
+
+.details-failure-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  margin-bottom: 16px;
+}
+
+.details-retry-btn {
+  font-family: 'Roboto';
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
